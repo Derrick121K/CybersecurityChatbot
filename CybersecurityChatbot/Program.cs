@@ -6,6 +6,8 @@
         {
             Console.Title = "Cybersecurity Chatbot";
             Console.WriteLine("Cybersecurity Chatbot Starting...");
+            AudioPlayer audio = new AudioPlayer();
+            audio.PlayGreeting();
         }
     }
 }
